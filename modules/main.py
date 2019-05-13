@@ -1,3 +1,4 @@
+# Main file that calls the other modules and performs the task
 import cv2
 import imutils
 import numpy as np
