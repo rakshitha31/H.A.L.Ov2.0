@@ -14,7 +14,4 @@ import getdifference
 import detrend
 import performfft
 import plot
-
-avg = ( max0 + max1 )/2  #calculates the average heartbeat of the blue and hue signal
-
 import sendvalue
