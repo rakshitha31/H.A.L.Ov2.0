@@ -1,3 +1,4 @@
+# Intialises all the variables used
 blue = []
 red = []
 green = []
