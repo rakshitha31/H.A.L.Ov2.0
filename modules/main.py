@@ -28,7 +28,7 @@ while ret:
       # Convert frame to grey because cascading only works with greyscale image
       gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
       # Call the detect function with grey image and colored frame
-      canvas = detect(gray, frame)
+      canvas = detectface(gray, frame)
       if cv2.waitKey(1) and 0xFF == ord('q'):
         break
   except AttributeError:
